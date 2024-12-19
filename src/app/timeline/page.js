@@ -14,7 +14,7 @@ export default function Timeline() {
     >
       <div className="text-center py-8">
         <h1 className="text-3xl font-bold mb-2">Our Story</h1>
-        <p className="text-gray-400">Moments we've shared together ❤️</p>
+        <p className="text-gray-400">{"Moments we've shared together ❤️"}</p>
       </div>
       <TimelineComponent events={timelineEvents} />
     </motion.div>

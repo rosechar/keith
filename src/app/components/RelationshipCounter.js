@@ -99,7 +99,7 @@ export function RelationshipCounter() {
       >
         <AnimatePresence mode="wait">
         <div className="text-2xl text-purple-400 mt-4 font-normal">
-          That's...
+          {"That's..."}
         </div>
           <motion.div
             key={`${years}${months}${finalDays}`}
